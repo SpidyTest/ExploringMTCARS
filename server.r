@@ -13,7 +13,7 @@ shinyServer(
   function(input,output){
     #rendering the output plot here using qplot and data(mtcars)
       output$plot1<- renderPlot({
-      qplot(mtcars[[input$id.x]], mtcars[[input$id.y]] , data=mtcars, xlab = 'x-axis', ylab = 'y-axis')
+      qplot(mtcars[[input$id.x]], mtcars[[input$id.y]] , col = mtcars[[input$id.y]] , data=mtcars, xlab = 'x-axis', ylab = 'y-axis')
       })
   }
 )
