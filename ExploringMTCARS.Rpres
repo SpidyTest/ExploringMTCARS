@@ -1,0 +1,39 @@
+ExploringMTCARS
+========================================================
+author: Manish Mishra
+date: 23 Aug 2015
+
+Slide 2 - Project Description
+========================================================
+
+For this course project, I have made a shiny app to explore the dataset **mtcars**.
+
+What things you can explore with this app here:
+
+- The dependency between the variables.
+- How their values are getting changed depending on others'.
+- The reactivity of the shiny code.
+
+Slide 3 - Structure of mtcars Dataset
+========================================================
+
+```{r, echo=T}
+str(mtcars)
+```
+
+Slide 4 - Plotting mpg ~ hp
+========================================================
+If **horse power** increases, then **mileage** decreases.
+```{r, echo=FALSE}
+library(ggplot2)
+qplot(mpg, hp, data = mtcars)
+```
+
+Slide 5 - Summary of the course project
+===
+
+Links for shiny app and github repository
+
+* **Shiny App**:  https://spidy.shinyapps.io/ExploringMTCARS
+
+* **Github:**    https://github.com/SpidyTest/ExploringMTCARS
