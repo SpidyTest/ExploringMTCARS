@@ -15,5 +15,8 @@ This repository will be having three files in it.
 You can access the shiny app by clicking on the link below.
 
 
-[link](https://spidy.shinyapps.io/ExploringMTCARS).
+[Shiny - ExploringMTCARS](https://spidy.shinyapps.io/ExploringMTCARS).
 
+
+You can access the Rpub HTML page for R Presentation by clicking the lin below:
+[Rpub - ExploringMTCARS](http://rpubs.com/manish341/ExploringMTCARS)
